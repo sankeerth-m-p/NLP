@@ -1,0 +1,6 @@
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import word_tokenize, sent_tokenize
+
+text =input(">>")
+print(word_tokenize(text))  

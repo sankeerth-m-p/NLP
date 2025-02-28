@@ -1,0 +1,4 @@
+from textblob import TextBlob
+text = "you are niut alwras correct"
+corrected_text = str(TextBlob(text).correct())
+print(corrected_text)  # Output: "I want to build muscle"
